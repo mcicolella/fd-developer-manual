@@ -11,9 +11,7 @@ From template
    time you compile the plugin will be installed into *freedomotic-core* folder,
    so you can simply start it to see your plugin running.
 4. Implement the **HelloWorld.java** class methods and rename the class and
-   the `path to
-   manifest <https://github.com/freedomotic/freedomotic/wiki/Plugin-manifest-and-configuration>`__
-   in the class Constructor according to the new name of your plugin.
+   the path to manifest in the class constructor according to the new name of your plugin.
 5. Compile the plugin and start Freedomotic to test it.
 6. Add commands, triggers and resources in the
    *src/main/resources/data/* folder of this plugin (take a look at the
