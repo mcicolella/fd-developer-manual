@@ -5,19 +5,19 @@ Create a new plugin
 From template
 -------------
 
-1. Copy and paste the hello-world example you can find in
-   GIT_FOLDER/plugins/devices/hello-world. Open this project along with
-   **freedomotic-core** in your favourite IDE and make your changes. Any
+1. Create a new folder inside GIT_FOLDER/plugins/devices/ 
+2. Copy and paste the **hello-world** example you can find in `here <https://github.com/freedomotic/freedomotic/tree/master/plugins/devices/hello-world>`__.
+3. Open this project along with **freedomotic-core** in your favourite IDE and make your changes. Any
    time you compile the plugin will be installed into *freedomotic-core* folder,
    so you can simply start it to see your plugin running.
-2. Implement the **HelloWorld.java** class methods and rename the class and
+4. Implement the **HelloWorld.java** class methods and rename the class and
    the `path to
    manifest <https://github.com/freedomotic/freedomotic/wiki/Plugin-manifest-and-configuration>`__
    in the class Constructor according to the new name of your plugin.
-3. Compile the plugin and start Freedomotic to test it.
-4. Add commands, triggers and resources in the
+5. Compile the plugin and start Freedomotic to test it.
+6. Add commands, triggers and resources in the
    *src/main/resources/data/* folder of this plugin (take a look at the
-   folder diagram above)
+   folder diagram below)
 
 From an archetype
 -----------------
